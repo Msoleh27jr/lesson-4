@@ -567,6 +567,10 @@ video {
   margin-bottom: 1rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -591,6 +595,10 @@ video {
   flex-direction: column;
 }
 
+.flex-col-reverse {
+  flex-direction: column-reverse;
+}
+
 .items-center {
   align-items: center;
 }
@@ -601,6 +609,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
 }
 
 .gap-10 {
@@ -621,6 +633,10 @@ video {
 
 .gap-5 {
   gap: 1.25rem;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .rounded-lg {
@@ -644,6 +660,11 @@ video {
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .text-\[18px\] {
