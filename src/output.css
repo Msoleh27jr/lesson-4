@@ -554,6 +554,10 @@ video {
   display: none;
 }
 
+.float-start {
+  float: inline-start;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -561,10 +565,6 @@ video {
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
-}
-
-.block {
-  display: block;
 }
 
 .inline-block {
@@ -579,12 +579,24 @@ video {
   display: none;
 }
 
+.w-\[100px\] {
+  width: 100px;
+}
+
+.w-\[50\%\] {
+  width: 50%;
+}
+
 .flex-col {
   flex-direction: column;
 }
 
 .items-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -595,8 +607,20 @@ video {
   gap: 2.5rem;
 }
 
+.gap-2 {
+  gap: 0.5rem;
+}
+
 .gap-3 {
   gap: 0.75rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .rounded-lg {
@@ -612,23 +636,9 @@ video {
   padding: 1.25rem;
 }
 
-.p-3 {
-  padding: 0.75rem;
-}
-
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
-
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
 }
 
 .py-1 {
@@ -636,9 +646,8 @@ video {
   padding-bottom: 0.25rem;
 }
 
-.px-7 {
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
+.text-\[18px\] {
+  font-size: 18px;
 }
 
 .text-\[20px\] {
@@ -653,33 +662,21 @@ video {
   font-size: 40px;
 }
 
-.text-\[18px\] {
-  font-size: 18px;
+.text-\[90px\] {
+  font-size: 90px;
 }
 
 .font-bold {
   font-weight: 700;
 }
 
-.text-\[\] {
-  color: ;
-}
-
-.text-\[19\] {
-  color: 19;
-}
-
-.text-\[198\] {
-  color: 198;
-}
-
-.text-\[1\] {
-  color: 1;
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\] {
+  color: ;
 }
 
 @media (min-width: 1024px) {
@@ -691,6 +688,18 @@ video {
     display: none;
   }
 
+  .lg\:w-\[150px\] {
+    width: 150px;
+  }
+
+  .lg\:w-\[32\%\] {
+    width: 32%;
+  }
+
+  .lg\:w-\[50\%\] {
+    width: 50%;
+  }
+
   .lg\:max-w-\[1660px\] {
     max-width: 1660px;
   }
@@ -699,15 +708,27 @@ video {
     flex-direction: row;
   }
 
+  .lg\:justify-between {
+    justify-content: space-between;
+  }
+
+  .lg\:text-\[30px\] {
+    font-size: 30px;
+  }
+
   .lg\:text-\[50px\] {
     font-size: 50px;
+  }
+
+  .lg\:text-\[80px\] {
+    font-size: 80px;
   }
 
   .lg\:text-\[90px\] {
     font-size: 90px;
   }
 
-  .lg\:text-\[\] {
-    color: ;
+  .lg\:text-\[100px\] {
+    font-size: 100px;
   }
 }
